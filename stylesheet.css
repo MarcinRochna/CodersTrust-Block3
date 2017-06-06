@@ -8,6 +8,7 @@ body, h1, h2, h3, h4, h5, h6, div, ul, li {
 body {
 	font-family: Verdana, Geneva, sans-serif;
 	background-color: #000;
+	
 }
 
 #divWrapper {
@@ -16,7 +17,7 @@ body {
 }
 
 #divHeader {
-	width: 700px;
+	
 	background: url(images/header-bg.jpg);
 	text-align: center;
 }
@@ -24,17 +25,18 @@ body {
 #divHeader img {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	width: 405px;
+	height: 68px;
+	
 }
 
-.divLine {
-	width: 700px;
-	background: #999; 
-	height: 1px;
-}
+
 
 #divLinks {
-	width: 700px;
+	
 	background: #666;
+	border-top: 1px  solid #999;
+	border-bottom: 1px  solid #999;
 }
 
 #divNav {
@@ -92,7 +94,7 @@ body {
 }
 
 #divAbout {
-	width: 700px;
+	
 	background: #333;
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -123,6 +125,8 @@ body {
 	background: #333;
 	padding: 16px;
 	margin: 0.7em;
+	width: 90px;
+	height: 123px;
 	
 	/*Gradients*/
 	background: -moz-linear-gradient(top, #000, #333);
